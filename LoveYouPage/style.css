@@ -1,0 +1,45 @@
+/* style.css */
+body {
+    background-color: #000;
+    color: white;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+}
+
+h1 {
+    font-size: 36px;
+    margin-bottom: 30px;
+    color: pink;
+}
+
+#yesBtn,
+#noBtn {
+    padding: 15px 30px;
+    margin: 0 10px;
+    font-size: 20px;
+    border-radius: 10px;
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+#yesBtn {
+    background-color: hotpink;
+}
+
+#noBtn {
+    background-color: gray;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
